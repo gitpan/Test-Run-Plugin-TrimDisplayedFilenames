@@ -1,0 +1,31 @@
+---
+name: Test-Run-Plugin-TrimDisplayedFilenames
+version: 0.01
+author:
+  - 'Shlomi Fish <shlomif@cpan.org>'
+abstract: |-
+  trim the first components
+  of the displayed filename to deal with excessively long ones.
+license: mit
+resources:
+  license: http://opensource.org/licenses/mit-license.php
+requires:
+  NEXT: 0
+  Test::Run::CmdLine: 0.0105
+  Test::Run::Core: 0.0115
+  YAML: 0
+build_requires:
+  Test::More: 0
+  Test::Run::CmdLine::Trap::ProveApp: 0
+  Test::Trap: 0
+provides:
+  Test::Run::CmdLine::Plugin::TrimDisplayedFilenames:
+    file: lib/Test/Run/CmdLine/Plugin/TrimDisplayedFilenames.pm
+    version: 0.0100
+  Test::Run::Plugin::TrimDisplayedFilenames:
+    file: lib/Test/Run/Plugin/TrimDisplayedFilenames.pm
+    version: 0.01
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
