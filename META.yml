@@ -1,6 +1,6 @@
 ---
 name: Test-Run-Plugin-TrimDisplayedFilenames
-version: 0.0101
+version: 0.0102
 author:
   - 'Shlomi Fish <shlomif@cpan.org>'
 abstract: |-
@@ -11,7 +11,7 @@ resources:
   license: http://opensource.org/licenses/mit-license.php
 requires:
   NEXT: 0
-  Test::Run::CmdLine: 0.0108
+  Test::Run::CmdLine: 0.0110
   Test::Run::Core: 0.0117
   YAML: 0
 build_requires:
@@ -21,10 +21,10 @@ build_requires:
 provides:
   Test::Run::CmdLine::Plugin::TrimDisplayedFilenames:
     file: lib/Test/Run/CmdLine/Plugin/TrimDisplayedFilenames.pm
-    version: 0.0100
+    version: 0.0101
   Test::Run::Plugin::TrimDisplayedFilenames:
     file: lib/Test/Run/Plugin/TrimDisplayedFilenames.pm
-    version: 0.0101
+    version: 0.0102
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
