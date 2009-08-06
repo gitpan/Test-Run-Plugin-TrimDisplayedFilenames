@@ -17,10 +17,13 @@ my $builder = Test::Run::Builder->new(
         'Test::Run::CmdLine::Trap::ProveApp' => 0,
     },
     requires => {
-        'Test::Run::CmdLine' => "0.0111",
-        'Test::Run::Core' => "0.0118",
-        'YAML' => 0,
+        'Test::Run::CmdLine' => "0.0120",
+        'Test::Run::Core' => "0.0120",
         'MRO::Compat' => 0,
+        'Moose' => 0,
+    },
+    test_requires => {
+        'YAML::XS' => 0,
     },
     add_to_cleanup      => [ 'Test-Run-Plugin-TrimDisplayedFilenames-*' ],
     create_makefile_pl => 'traditional',
