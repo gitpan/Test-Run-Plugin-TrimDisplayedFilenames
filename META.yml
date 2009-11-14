@@ -1,6 +1,6 @@
 ---
 name: Test-Run-Plugin-TrimDisplayedFilenames
-version: 0.0120
+version: 0.0121
 author:
   - 'Shlomi Fish <shlomif@cpan.org>'
 abstract: |-
@@ -17,17 +17,17 @@ requires:
   MRO::Compat: 0
   Moose: 0
   Test::Run::CmdLine: 0.0120
-  Test::Run::Core: 0.0120
+  Test::Run::Core: 0.0121
 configure_requires:
-  Module::Build: 0.34
+  Module::Build: 0.35
 provides:
   Test::Run::CmdLine::Plugin::TrimDisplayedFilenames:
     file: lib/Test/Run/CmdLine/Plugin/TrimDisplayedFilenames.pm
-    version: 0.0120
+    version: 0.0121
   Test::Run::Plugin::TrimDisplayedFilenames:
     file: lib/Test/Run/Plugin/TrimDisplayedFilenames.pm
-    version: 0.0120
-generated_by: Module::Build version 0.34
+    version: 0.0121
+generated_by: Module::Build version 0.35
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
