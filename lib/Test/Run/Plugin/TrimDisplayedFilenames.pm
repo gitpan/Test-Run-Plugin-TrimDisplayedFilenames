@@ -19,19 +19,14 @@ of the displayed filename to deal with excessively long ones.
 
 =head1 VERSION
 
-Version 0.0121
+Version 0.0122
 
 =cut
 
-our $VERSION = '0.0121';
+our $VERSION = '0.0122';
 
 has 'trim_displayed_filenames_query' => (is => "rw", isa => "Str");
 
-sub _get_private_simple_params
-{
-    my $self = shift;
-    return [qw(trim_displayed_filenames_query)];
-}
 
 sub _process_filename_dirs
 {
