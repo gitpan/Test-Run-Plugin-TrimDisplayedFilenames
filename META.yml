@@ -1,5 +1,5 @@
 ---
-abstract: "trim the first components\nof the displayed filename to deal with excessively long ones."
+abstract: 'trim the first components'
 author:
   - 'Shlomi Fish <shlomif@cpan.org>'
 build_requires:
@@ -7,8 +7,9 @@ build_requires:
   Test::Run::CmdLine::Trap::ProveApp: 0
   Test::Trap: 0
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3603'
+  Module::Build: 0.39
+dynamic_config: 1
+generated_by: 'Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921'
 license: mit
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -17,10 +18,10 @@ name: Test-Run-Plugin-TrimDisplayedFilenames
 provides:
   Test::Run::CmdLine::Plugin::TrimDisplayedFilenames:
     file: lib/Test/Run/CmdLine/Plugin/TrimDisplayedFilenames.pm
-    version: 0.0122
+    version: 0.0123
   Test::Run::Plugin::TrimDisplayedFilenames:
     file: lib/Test/Run/Plugin/TrimDisplayedFilenames.pm
-    version: 0.0122
+    version: 0.0123
 requires:
   MRO::Compat: 0
   Moose: 0
@@ -28,4 +29,4 @@ requires:
   Test::Run::Core: 0.0122
 resources:
   license: http://www.opensource.org/licenses/mit-license.php
-version: 0.0122
+version: 0.0123
