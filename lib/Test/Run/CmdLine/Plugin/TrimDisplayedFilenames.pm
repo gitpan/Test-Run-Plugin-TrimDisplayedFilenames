@@ -3,6 +3,8 @@ package Test::Run::CmdLine::Plugin::TrimDisplayedFilenames;
 use strict;
 use warnings;
 
+use 5.008;
+
 =head1 NAME
 
 Test::Run::CmdLine::Plugin::TrimDisplayedFilenames - trim the filenames
@@ -25,11 +27,11 @@ environment variable. A few sample ones are:
 
 =head1 VERSION
 
-Version 0.0123
+Version 0.0124
 
 =cut
 
-our $VERSION = '0.0123';
+our $VERSION = '0.0124';
 
 =head1 METHODS
 
@@ -38,7 +40,7 @@ our $VERSION = '0.0123';
 
 =head2 $self->private_backend_plugins()
 
-Returns the Backend Plugins as specified by this plugin. See 
+Returns the Backend Plugins as specified by this plugin. See
 L<Test::Run::CmdLine> for more information.
 
 =cut

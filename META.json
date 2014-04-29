@@ -4,7 +4,7 @@
       "Shlomi Fish <shlomif@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.3901, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Module::Build version 0.4205",
    "license" : [
       "mit"
    ],
@@ -31,18 +31,24 @@
             "MRO::Compat" : "0",
             "Moose" : "0",
             "Test::Run::CmdLine" : "0.0121",
-            "Test::Run::Core" : "0.0122"
+            "Test::Run::Core" : "0.0122",
+            "perl" : "5.008"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "YAML::XS" : "0"
          }
       }
    },
    "provides" : {
       "Test::Run::CmdLine::Plugin::TrimDisplayedFilenames" : {
          "file" : "lib/Test/Run/CmdLine/Plugin/TrimDisplayedFilenames.pm",
-         "version" : "0.0123"
+         "version" : "0.0124"
       },
       "Test::Run::Plugin::TrimDisplayedFilenames" : {
          "file" : "lib/Test/Run/Plugin/TrimDisplayedFilenames.pm",
-         "version" : "0.0123"
+         "version" : "0.0124"
       }
    },
    "release_status" : "stable",
@@ -51,5 +57,5 @@
          "http://www.opensource.org/licenses/mit-license.php"
       ]
    },
-   "version" : "0.0123"
+   "version" : "0.0124"
 }
